@@ -34,6 +34,34 @@ fetch("https://anapioficeandfire.com/api/books") // make request for pokemon
 
 // An asynchronous request to https://pokeapi.co/api/v2/pokemon/[name]"
 
-// ~ Challenge: Make a GET request to an API of your choice!
+// ~ Challenge: Make a GET request to an API of your choice! // FETCH SPOTIFY
 
-fetch()
+let redirect_uri = "http://127.0.0.1:5500/beginning/index.html"
+let client_id = "";
+let client_secret = "";
+
+function onPageLoad(){
+    if (window.location.search.length > 0){
+        handleRedirect();
+    }
+}
+
+function handleRedirect(){
+    let code
+}
+const AUTHORIZE = "https://accounts.spotify.com/authorize"
+
+function requestAuthorization(){
+    const client_id = document.querySelector("#clientId").value; // target id=clientId
+    const client_secret = document.querySelector("#clientSecret").value; // target id=clientSecret
+    localStorage.setItem("client_id", client_id);
+    localStorage.setItem("client_secret", client_secret);
+
+    let url = AUTHORIZE;
+    url += "?client_id=" + client_id;
+    url += "&response_type=code";
+    url += "&redirect_uri=" + encodeURI(redirect_uri);
+    url += "&show_dialog=true";
+    url += "&scope=user-read-private user-read-email user-modify-playback-state user-read-playback-position user-library-read streaming user-read-playback-state user-read-recently-played playlist-read-private";
+    window.location.href = url; // Show Spotify's authorization screen
+} 

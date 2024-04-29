@@ -10,6 +10,24 @@
     <h1>Gotta <code>fetch()</code> 'em all!</h1>
     <h2>Dog Fact: <span id="dog"></span></h2>
     <h2>Pokemon: <span id="pokemon"></span></h2>
+    <h2>Spotify Player: <span id="spotifyPlayer"></span></h2>
+      <body onload="onpPageLoad()">
+        <div class="container">
+          <div id="tokenSection" class="row">
+            <div class="col">
+              <div class="mb-3">
+                <label for="clientId">Client ID</label>
+                <input type="text" class="form-control" id="clientId" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="clientSecret" class="form-label">Client Secret</label>
+                <input type="text" class="form-control" id="clientSecret" placeholder="">
+              </div>
+              <input class="btn btn-primary btn-lg" type="button" onclick="requestAuthorization()" value="Request Authorization"><br/>
+            </div>
+          </div>
+        </div>
+      </body>
     <h2>Game of Thrones</h2>
     <ul id="got"></ul>
   </body>
