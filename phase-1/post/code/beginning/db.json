@@ -1,0 +1,140 @@
+{
+  "cats": [
+    {
+      "id": "1",
+      "name": "Octavia",
+      "age": 12,
+      "isACat": true,
+      "favoriteFoods": [
+        "salmon",
+        "milk"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Ursula",
+      "age": 12,
+      "isACat": true,
+      "favoriteFoods": [
+        "canned food",
+        "water"
+      ]
+    },
+    {
+      "id": "582f",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "ab3c",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "5284",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "e9ed",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "b537",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "2b15",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "cc7a",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "7bf1",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "b294",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "5681",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "7857",
+      "name": "aSD",
+      "age": "aSD",
+      "isACat": true
+    },
+    {
+      "id": "51c5",
+      "name": "asdf",
+      "age": "asdf",
+      "isACat": true
+    },
+    {
+      "id": "3927",
+      "name": "asdf",
+      "age": "3",
+      "isACat": true
+    },
+    {
+      "id": "3309",
+      "name": "asdf",
+      "age": "3",
+      "isACat": true
+    },
+    {
+      "id": "0891",
+      "name": "asdf",
+      "age": "3",
+      "isACat": true
+    },
+    {
+      "id": "7daa",
+      "name": "asdf",
+      "age": "3",
+      "isACat": true
+    }
+  ],
+  "dogs": [
+    {
+      "id": "1",
+      "name": "Benji",
+      "age": "unknown",
+      "isGoodDog": true
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "age": 3,
+      "isGoodDog": false
+    },
+    {
+      "id": "ccdc",
+      "name": "fido",
+      "age": "3",
+      "isGoodDog": true
+    }
+  ]
+}
